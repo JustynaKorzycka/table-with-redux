@@ -19,7 +19,7 @@ const PaginationTable = () => {
 
   return (
     <div className='pagination'>
-      <button className='btn' onClick={()=> dispatch(changePage(-1))}><BsFillArrowLeftSquareFill style={iconStyle} /></button>
+      <button className='btn' onClick={()=> dispatch(changePage(-1), )}><BsFillArrowLeftSquareFill style={iconStyle} /></button>
       <button className='btn' onClick={()=> dispatch(changePage(1))} ><BsFillArrowRightSquareFill style={iconStyle}/></button>
 
       
